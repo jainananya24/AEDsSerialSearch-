@@ -3,6 +3,9 @@ import pandas as pd
 import os
 from io import BytesIO
 
+from google.colab import drive
+drive.mount('/content/drive')
+
 # Title
 st.title("🔍 Genealogy Search App")
 
