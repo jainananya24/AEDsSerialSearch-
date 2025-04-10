@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import gspread
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
