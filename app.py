@@ -1,3 +1,4 @@
+!pip install openpyxl
 import streamlit as st
 import pandas as pd
 import os
@@ -6,7 +7,7 @@ from io import BytesIO
 from google.colab import drive
 drive.mount('/content/drive')
 
-drive_folder_path = '/content/drive/MyDrive/Penang AED DHR'
+folder_path = '/content/drive/MyDrive/Penang AED DHR'
 
 # Title
 st.title("🔍 Genealogy Search App")
