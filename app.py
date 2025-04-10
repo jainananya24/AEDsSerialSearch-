@@ -6,6 +6,8 @@ from io import BytesIO
 from google.colab import drive
 drive.mount('/content/drive')
 
+drive_folder_path = '/content/drive/MyDrive/Penang AED DHR'
+
 # Title
 st.title("🔍 Genealogy Search App")
 
@@ -17,7 +19,7 @@ st.markdown("""
 """)
 
 # Input: Google Drive Folder Path and Serial Number
-folder_path = st.text_input("📁 Enter Google Drive Folder Path:", "/content/drive/MyDrive/Penang AED DHR")
+folder_path = st.text_input("📁 Enter Google Drive Folder Path:",)
 serial_number = st.text_input("🔢 Enter Parent Serial Number to search:")
 
 # Function to load and combine all Excel files from the folder
